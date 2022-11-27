@@ -31,7 +31,14 @@
         "lib": [
             "esnext",
             "dom"
-        ]
+        ],
+        // 设置路径别名
+        "baseUrl": ".",
+        "paths": {
+            "@vue-mini/*": [
+                "packages/*/src"
+            ]
+        }
     },
     // 入口
     "include": [
